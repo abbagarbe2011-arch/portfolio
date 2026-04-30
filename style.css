@@ -1,0 +1,124 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+background: linear-gradient(135deg, #1e3c72, #2a5298);
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 50px;
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.home{
+display:flex;
+align-items:center;
+justify-content:space-around;
+padding:80px;
+flex-wrap:wrap;
+}
+
+.home-text h1{
+font-size:40px;
+}
+
+.home-text span{
+color:yellow;
+}
+
+.home-text button{
+margin-top:20px;
+padding:12px 25px;
+background:yellow;
+border:none;
+border-radius:25px;
+cursor:pointer;
+}
+
+.home-img img{
+width:250px;
+border-radius:50%;
+border:5px solid white;
+box-shadow:0 0 20px rgba(255,255,255,0.5);
+}
+
+.card{
+margin:40px;
+padding:30px;
+background: rgba(255,255,255,0.1);
+border-radius:15px;
+backdrop-filter: blur(10px);
+text-align:center;
+}
+
+.projects{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.project-box{
+background: rgba(255,255,255,0.2);
+padding:20px;
+border-radius:10px;
+width:200px;
+transition:0.3s;
+}
+
+.project-box:hover{
+transform:scale(1.1);
+}
+
+button{
+font-weight:bold;
+}
+
+@media(max-width:768px){
+.home{
+flex-direction:column;
+text-align:center;
+}
+}
+
+.social-icons{
+margin-top:20px;
+}
+
+.social-icons a{
+color:white;
+font-size:30px;
+margin:10px;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:yellow;
+transform:scale(1.2);
+}
