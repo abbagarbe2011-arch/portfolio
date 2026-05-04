@@ -77,23 +77,16 @@ backdrop-filter: blur(10px);
 text-align:center;
 }
 
-.projects{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
-justify-content:center;
+.project{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
 }
 
-.project-box{
-background: rgba(255,255,255,0.2);
-padding:20px;
-border-radius:10px;
-width:200px;
-transition:0.3s;
-}
-
-.project-box:hover{
-transform:scale(1.1);
+.project a {
+    color: green;
+    text-decoration: none;
 }
 
 button{
