@@ -100,18 +100,19 @@ text-align:center;
 }
 }
 
-.social-icons{
-margin-top:20px;
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
 }
-
-.social-icons a{
-color:white;
-font-size:30px;
-margin:10px;
-transition:0.3s;
+.social-links a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
 }
-
-.social-icons a:hover{
-color:yellow;
-transform:scale(1.2);
+.social-links a:hover {
+    color: maroon;
+    transform: scale(1.2);
 }
