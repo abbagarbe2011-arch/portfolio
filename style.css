@@ -52,9 +52,12 @@ font-size:40px;
 color:yellow;
 }
 
+.home-text p{
+    font-size: 20px;
+}
 .home-text button{
-margin-top:20px;
-padding:12px 25px;
+margin-top:60px;
+padding:20px 35px;
 background:yellow;
 border:none;
 border-radius:25px;
@@ -62,7 +65,7 @@ cursor:pointer;
 }
 
 .home-img img{
-width:250px;
+width:200px;
 border-radius:50%;
 border:5px solid white;
 box-shadow:0 0 20px rgba(255,255,255,0.5);
@@ -115,4 +118,57 @@ text-align:center;
 .social-links a:hover {
     color: maroon;
     transform: scale(1.2);
+}
+.contact {
+    background: #f4f6f8;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.contact p {
+    font-size: 20px;
+    color: #555;
+}
+
+.contact-info {
+    margin: 20px 0;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    padding: 12px;
+    font-size: 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
 }
